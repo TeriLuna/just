@@ -1,11 +1,13 @@
 import React from "react";
-import { Home } from "./components/home/Home";
 import "./assets/styles/App.css";
+import { Hero } from "./components/home/Hero";
+import { Services } from "./components/services/Services";
 
 export const App = () => {
   return (
     <>
-      <Home />
+      <Hero />
+      <Services />
     </>
   );
 };
