@@ -84,11 +84,7 @@ span:hover {
 }
 
 /* =================== [ Helper Classes ] =================== */
-.bg-img {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
+
 .hero-img {
   background-image: url(../../assets/images/bg/bg-hero-home.jpg) !important;
 }
@@ -110,4 +106,9 @@ span:hover {
 
 .tpurple-lither {
   color: #d8bad9;
+}
+
+.bg-purple {
+  background-color: #734061;
+  color: #ffff;
 }
