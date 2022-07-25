@@ -1,12 +1,16 @@
 import React from "react";
 
-export const Services = () => {
+const Services = () => {
   return (
-    <section id="services">
-      <div>
-        <h4 className="tpurple-light">Pioneros en terapia herbal</h4>
-        <h5 className="tpurple">Nuestros productos</h5>
+    <div id="services" className="relative p-28">
+      <div className=" container">
+        <div className=" row-auto">
+          <h4 className="tpurple-light">Pioneros en terapia herbal</h4>
+          <h5 className="tpurple">Nuestros productos</h5>
+        </div>
       </div>
-    </section>
+    </div>
   );
 };
+
+export default Services;
