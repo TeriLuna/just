@@ -94,7 +94,15 @@ span:hover {
 /* =================== [ Helper Classes ] =================== */
 
 .hero-img {
-  background-image: url(../../assets/images/bg/bg-hero-home.jpg) !important;
+  background-image: url(../../assets/images/bg/bg-hero-home.jpg);
+}
+
+.bg-img {
+  position: relative;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .fullscreen {

@@ -33,11 +33,10 @@ const Hero = () => {
   };
 
   return (
-    <div id="home" className=" relative">
+    <div id="home" className="fullscreen bg-img hero-img">
       <div className=" container max-w-md mx-auto md:max-w-2xl">
         <div className=" md:flex">
           <div className="md:shrink-0">
-            <div className="fullscreen left-0 bg-no-repeat bg-cover bg-center bg-img hero-img absolute"></div>
             <div className="max-w-md mx-auto">
               <div className="absolute flex flex-col w-1/3 top-72 left-64 sm:flex sm:top-0 sm:left-0 md:top-44 md:left-60">
                 <span className="tpurple text-5xl md:text-5xl md:tpurple sm:text-xl sm:tpurple-light">
