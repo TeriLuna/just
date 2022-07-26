@@ -1,0 +1,9 @@
+#beneficios{
+    background-color:#C2BDCF;
+}
+.contBenf{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
