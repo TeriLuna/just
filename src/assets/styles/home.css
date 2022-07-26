@@ -128,3 +128,8 @@ span:hover {
   background-color: #734061;
   color: #ffff;
 }
+
+.bg-purple-light {
+  background-color: #a8a8ef;
+  color: #ffff;
+}
