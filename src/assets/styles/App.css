@@ -3,4 +3,8 @@
 @import "tailwindcss/utilities";
 @import "home.css";
 @import "header.css";
-@import "beneficios.css"
+@import "beneficios.css";
+@font-face {
+  font-family: "AmsterdamOne";
+  src: local("AmsterdamOne"), url(./fonts/AmsterdamOne.ttf) format("truetype");
+}

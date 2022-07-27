@@ -68,6 +68,10 @@ p {
   line-height: 2;
   margin: 0;
 }
+/* 
+div {
+  display: block !important;
+} */
 
 a,
 span {
@@ -79,14 +83,26 @@ span:hover {
   text-decoration: none;
 }
 
-.container {
-  max-width: 1200px;
-}
+/* .container {
+  width: 100% !important;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+} */
 
 /* =================== [ Helper Classes ] =================== */
 
 .hero-img {
-  background-image: url(../../assets/images/bg/bg-hero-home.jpg) !important;
+  background-image: url(../../assets/images/bg/bg-hero-home.jpg);
+}
+
+.bg-img {
+  position: relative;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .fullscreen {
@@ -110,5 +126,10 @@ span:hover {
 
 .bg-purple {
   background-color: #734061;
+  color: #ffff;
+}
+
+.bg-purple-light {
+  background-color: #a8a8ef;
   color: #ffff;
 }
