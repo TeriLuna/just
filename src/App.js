@@ -4,6 +4,7 @@ import { Header } from "./components/header/header";
 import Hero from "./components/home/Hero";
 import ListServices from "./components/services/ListServices";
 import Services from "./components/services/Services";
+import Steps from "./components/services/Steps";
 
 export const App = () => {
   return (
@@ -12,6 +13,7 @@ export const App = () => {
       <Hero />
       <Services />
       <ListServices />
+      <Steps />
     </>
   );
 };
