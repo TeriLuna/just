@@ -43,7 +43,7 @@ export const Header = () => {
           to="iniciacion"
           spy={true}
           smooth={true}
-          offset={50}
+          offset={-50}
           duration={500}
           className="tpurple text-xl "
         >

@@ -2,7 +2,7 @@ import React from "react";
 
 const Consult = () => {
   return (
-    <div className="container mt-32 p-12">
+    <div id="iniciacion" className="container mt-32 p-12">
       <div className=" row-auto flex flex-col items-center justify-center">
         <h1
           className="tpurple-lither text-7xl font-normal"
