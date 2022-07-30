@@ -5,7 +5,9 @@ import { Header } from "./components/header/header";
 import { Beneficios } from "./components/beneficios/beneficios";
 
 import Hero from "./components/home/Hero";
+import ListServices from "./components/services/ListServices";
 import Services from "./components/services/Services";
+import Steps from "./components/services/Steps";
 
 
 export const App = () => {
@@ -14,6 +16,8 @@ export const App = () => {
       <Header />
       <Hero />
       <Services />
+      <ListServices />
+      <Steps />
       <Beneficios/>
     </>
   );

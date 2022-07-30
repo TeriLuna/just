@@ -133,3 +133,67 @@ span:hover {
   background-color: #a8a8ef;
   color: #ffff;
 }
+
+.bg-purple-lighter {
+  background-color: #c2bdcf;
+  color: #ffff;
+}
+
+li {
+  width: 7.5em;
+  height: 7.5em;
+  text-align: center;
+  line-height: 7.5em;
+  border-radius: 7.5em;
+  background: #74688d;
+  margin: 0 1em;
+  color: #ffff;
+  position: relative;
+  margin: 4em;
+  z-index: 2;
+}
+
+li::before {
+  content: "";
+  position: absolute;
+  top: 3.5em;
+  left: 7.5em;
+  width: 9.5em;
+  height: 0.3em;
+  flex-grow: 1;
+  background-color: #ffff;
+  z-index: -1;
+}
+
+li:last-child::before {
+  display: none;
+}
+
+li span {
+  font-size: 5em;
+  font-weight: 600;
+}
+
+.just-big-bottle {
+  position: absolute;
+  top: -48em;
+  right: -27em;
+  width: 75%;
+  z-index: 2;
+}
+
+.just-bottle {
+  position: absolute;
+  top: -20em;
+  right: 0em;
+  width: 50%;
+  z-index: 2;
+}
+
+.just-bottle-base {
+  position: absolute;
+  top: -10em;
+  right: -2.5em;
+  width: 40%;
+  z-index: 1;
+}
