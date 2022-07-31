@@ -1,8 +1,12 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 export const Beneficios = () => {
     return(
         <section id='beneficios' className='relative p-56'>
+            <Link to="home"spy={true} smooth={true} offset={-50} duration={500} className=" text-xl bold cPointer mt-5 btnHome " >
+                <img className="iconHome"src={require('../../assets/images/icons/home-bco.png')} alt="" />
+            </Link>
             <div className='titleSection'>
                 <h2 className='text-5xl titleBenef' style={{ fontFamily: "AmsterdamOne" }}>Beneficios</h2>
                 <h4 className='tpurple text-4xl'  >Como consultor/a</h4>

@@ -25,7 +25,7 @@ export const Header = () => {
           smooth={true}
           offset={-50}
           duration={500}
-          className="tpurple text-xl bold"
+          className="tpurple text-xl bold cPointer"
         >
           Home
         </Link>
@@ -35,7 +35,7 @@ export const Header = () => {
           smooth={true}
           offset={-50}
           duration={500}
-          className="tpurple text-xl "
+          className="tpurple text-xl cPointer "
         >
           ¿Qué es JUST?
         </Link>
@@ -45,7 +45,7 @@ export const Header = () => {
           smooth={true}
           offset={-50}
           duration={500}
-          className="tpurple text-xl "
+          className="tpurple text-xl cPointer"
         >
           ¿Cómo iniciar?
         </Link>
@@ -55,7 +55,7 @@ export const Header = () => {
           smooth={true}
           offset={50}
           duration={500}
-          className="tpurple text-xl "
+          className="tpurple text-xl cPointer"
         >
           Beneficios
         </Link>
@@ -65,7 +65,7 @@ export const Header = () => {
           smooth={true}
           offset={50}
           duration={500}
-          className="tpurple text-xl "
+          className="tpurple text-xl cPointer"
         >
           Contacto
         </Link>

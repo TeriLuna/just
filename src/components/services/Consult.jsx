@@ -1,8 +1,11 @@
 import React from "react";
-
+import { Link } from "react-scroll";
 const Consult = () => {
   return (
     <div id="iniciacion" className="container mt-32 p-12">
+      <Link to="home"spy={true} smooth={true} offset={-50} duration={500} className=" text-xl bold cPointer mt-5 btnHome " >
+                <img className="iconHome"src={require('../../assets/images/icons/home-bco.png')} alt="" />
+      </Link>
       <div className=" row-auto flex flex-col items-center justify-center">
         <h1
           className="tpurple-lither text-7xl font-normal"

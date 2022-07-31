@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const Services = () => {
   const plantImg = (
@@ -41,6 +42,9 @@ const Services = () => {
       id="services"
       className="relative p-28 flex flex-col items-center justify-center"
     >
+      <Link to="home"spy={true} smooth={true} offset={-50} duration={500} className=" text-xl bold cPointer mt-5 btnHome " >
+        <img className="iconHome"src={require('../../assets/images/icons/home.png')} alt="" />
+      </Link>
       <div className=" container flex flex-col items-center justify-center">
         <div className=" row-auto">
           <h4

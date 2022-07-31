@@ -1,0 +1,31 @@
+.bgContact{
+    width: 100%;
+    background-image:url(../../assets/images/bg/bg-contact.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contContact{
+    width: 90%;
+    height: 600px;
+    padding: 2.5rem 5rem;
+    margin: auto 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contactWsp{
+    width: 25px;
+    margin: auto 10px;
+}
+
+.buttonWsp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 15px;
+}

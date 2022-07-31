@@ -10,7 +10,7 @@
     color: #ffffff
 }
 .contBenf{
-    margin: 10% auto;
+    margin: 25% auto 0 auto;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -110,4 +110,13 @@
 }
 .comillaIcon{
     width: 40px;
+}
+.btnHome{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 90%;
+}
+.iconHome{
+    width: 75px;
 }

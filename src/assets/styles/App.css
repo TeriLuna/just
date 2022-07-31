@@ -4,6 +4,8 @@
 @import "home.css";
 @import "header.css";
 @import "beneficios.css";
+@import "contact.css";
+@import "footer.css";
 @font-face {
   font-family: "AmsterdamOne";
   src: local("AmsterdamOne"), url(./fonts/AmsterdamOne.ttf) format("truetype");
