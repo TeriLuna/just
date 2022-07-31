@@ -129,6 +129,15 @@ span:hover {
   color: #ffff;
 }
 
+.hover\:text-10xl:hover {
+  font-size: 2.5rem /* px */;
+  line-height: 1;
+}
+
+.hover\:bg-purple-dark:hover {
+  background-color: #532c46;
+}
+
 .bg-purple-light {
   background-color: #a8a8ef;
   color: #ffff;
@@ -179,7 +188,7 @@ li span {
   top: -48em;
   right: -27em;
   width: 75%;
-  z-index: 2;
+  z-index: 1;
 }
 
 .just-bottle {
@@ -187,7 +196,7 @@ li span {
   top: -20em;
   right: 0em;
   width: 50%;
-  z-index: 2;
+  z-index: 1;
 }
 
 .just-bottle-base {
@@ -195,5 +204,5 @@ li span {
   top: -10em;
   right: -2.5em;
   width: 40%;
-  z-index: 1;
+  /* z-index: 1; */
 }

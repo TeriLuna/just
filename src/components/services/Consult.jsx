@@ -1,8 +1,10 @@
 import React from "react";
+import WhiteArrow from "../arrows/WhiteArrow";
 
 const Consult = () => {
   return (
     <div id="iniciacion" className="container mt-32 p-12">
+      <WhiteArrow />
       <div className=" row-auto flex flex-col items-center justify-center">
         <h1
           className="tpurple-lither text-7xl font-normal"

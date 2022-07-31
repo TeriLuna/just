@@ -5,10 +5,15 @@ import icon3 from "../../assets/images/icons/icono#3.png";
 import icon2 from "../../assets/images/icons/icono#2.png";
 import icon1 from "../../assets/images/icons/icono#1.png";
 import bigBottle from "../../assets/images/frascobig.png";
+import { Link } from "react-scroll";
+import WhiteArrow from "../arrows/WhiteArrow";
 
 const Steps = () => {
   return (
     <section className="relative h-screen p-24 bg-purple-lighter">
+      <Link to="home" spy={true} smooth={true} offset={-50} duration={500}>
+        <WhiteArrow />
+      </Link>
       <div className="container">
         <div className="row-auto">
           <ul className=" ml-40 inline-flex">

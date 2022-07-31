@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-scroll";
+import WineArrow from "../arrows/WineArrow";
 
 const Services = () => {
   const plantImg = (
@@ -37,10 +39,10 @@ const Services = () => {
     </svg>
   );
   return (
-    <section
-      id="services"
-      className="relative p-28 flex flex-col items-center justify-center"
-    >
+    <section id="services" className="relative p-28">
+      <Link to="home" spy={true} smooth={true} offset={-50} duration={500}>
+        <WineArrow />
+      </Link>
       <div className=" container flex flex-col items-center justify-center">
         <div className=" row-auto">
           <h4

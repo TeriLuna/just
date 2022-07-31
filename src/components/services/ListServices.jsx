@@ -1,8 +1,8 @@
 import React from "react";
 import imgServices from "../../assets/images/bg/bg-services.jpg";
-import icon3 from "../../assets/images/icons/icon1.png";
-import icon1 from "../../assets/images/icons/icon2.png";
-import icon2 from "../../assets/images/icons/icon3.png";
+import icon1 from "../../assets/images/icons/icon1.png";
+import icon2 from "../../assets/images/icons/icon2.png";
+import icon3 from "../../assets/images/icons/icon3.png";
 import icon4 from "../../assets/images/icons/icon4.png";
 import Consult from "./Consult";
 
@@ -121,7 +121,7 @@ const ListServices = () => {
         <div className="flex flex-col items-center justify-center">
           {services.map((service) => (
             <div
-              className="bg-purple-light flex items-center justify-center p-5 rounded-xl m-6 w-2/3"
+              className="bg-purple-light flex items-center justify-center p-8 rounded-xl m-6 w-2/3"
               key={service.id}
             >
               <div className=" col-span-2 mx-16">
@@ -140,7 +140,7 @@ const ListServices = () => {
 
       <Consult />
 
-      <div className="absolute right-0">{plantImgRight}</div>
+      <div className="absolute right-0 top-60">{plantImgRight}</div>
       <div className="absolute left-0 bottom-0">{plantImgLeft}</div>
     </section>
   );
