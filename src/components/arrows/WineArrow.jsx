@@ -3,7 +3,7 @@ import wineArrowIcon from "../../assets/images/arrows/flechatinto.png";
 
 const WineArrow = () => {
   return (
-    <div className="right-52 cursor-pointer z-20 absolute">
+    <div className="right-52 cursor-pointer z-20 absolute sm:z-0">
       <div className="inline-flex items-center justify-center">
         <img
           style={{ width: "2rem", height: "2rem" }}

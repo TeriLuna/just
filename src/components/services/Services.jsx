@@ -5,7 +5,7 @@ import plantLeftWine from "../../assets/images/plantLeftWine.png";
 
 const Services = () => {
   return (
-    <section id="services" className="relative p-20 lg:p-20 md:p-0 sm:p-0">
+    <section id="services" className="relative p-20 lg:p-20 md:p-10 sm:p-5">
       <div className=" flex flex-col items-center justify-center">
         <div className=" container">
           <div className=" row-auto">
@@ -22,7 +22,7 @@ const Services = () => {
               className="font-extralight flex justify-center tpurple-light text-5xl
                 lg:text-5xl lg:font-extralight
                 md:text-5xl md:font-normal
-                sm:text-xl sm:font-normal"
+                sm:text-2xl sm:font-normal"
               style={{ fontFamily: "AmsterdamOne" }}
             >
               Pioneros en terapia herbal
@@ -30,8 +30,8 @@ const Services = () => {
             <h5
               className="flex items-center flex-col tpurple font-medium text-4xl mt-6
                 lg:text-4xl lg:mt-6
-                md:text-4xl
-                sm:text-lg sm:mt-1"
+                md:text-4xl md:mt-4
+                sm:text-xl sm:mt-1"
             >
               Nuestros productos
             </h5>
@@ -46,7 +46,7 @@ const Services = () => {
                 className="tpurple-light font-normal text-3xl
                 lg:text-3xl
                 md:text-xl
-                sm:text-base"
+                sm:text-lg"
               >
                 Los productos Just se basan en recetas de bienestar que utilizan
                 prácticas ancestrales con hierbas medicinales para atender
@@ -59,7 +59,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="absolute left-0 -bottom-28 w-1/4">
+      <div className="absolute left-0 -bottom-28 w-1/4 lg:w-1/4 md:w-1/2 sm:w-1/2">
         <img src={plantLeftWine} alt="" />
       </div>
     </section>

@@ -49,7 +49,7 @@ const ListServices = () => {
         alt="Imagen de componentes esenciales de Just"
       />
       <div className=" container flex flex-col items-center justify-center">
-        <div className=" mt-80 lg:mt-40 sm:mt-32">
+        <div className=" mt-96 lg:mt-56 md:mt-40 sm:mt-32">
           <h2
             className=" text-4xl mb-16 font-medium
             lg:text-4xl lg:mb-16
