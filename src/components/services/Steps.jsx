@@ -16,12 +16,17 @@ const Steps = () => {
       </Link>
       <div className="container">
         <div className="row-auto">
-          <ul className=" ml-40 inline-flex">
+          <ul
+            className=" ml-40 inline-flex
+            lg:ml-40
+            md:ml-0
+            sm:ml-0"
+          >
             <li>
               <span>1</span>
               <div className=" flex flex-col items-center mt-5">
                 <img src={icon1} alt="" />
-                <p className=" text-4xl font-semibold tpurple mt-5">
+                <p className="font-semibold tpurple mt-5 text-4xl lg:text-4xl md:text-2xl sm:text-lg">
                   Contáctanos y regístrate
                 </p>
               </div>
@@ -30,7 +35,7 @@ const Steps = () => {
               <span>2</span>
               <div className=" flex flex-col items-center mt-5">
                 <img src={icon2} alt="" />
-                <p className=" text-4xl font-semibold tpurple mt-5">
+                <p className="font-semibold tpurple mt-5 text-4xl lg:text-4xl md:text-2xl sm:text-lg">
                   Adquiere tu Kit de inicio
                 </p>
               </div>
@@ -39,7 +44,7 @@ const Steps = () => {
               <span>3</span>
               <div className=" flex flex-col items-center mt-5">
                 <img src={icon3} alt="" />
-                <p className=" text-4xl font-semibold tpurple mt-5">
+                <p className="font-semibold tpurple mt-5 text-4xl lg:text-4xl md:text-lg sm:text-xs">
                   ¡Listo! ya eres consultor/a Just
                 </p>
               </div>
