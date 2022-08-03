@@ -3,7 +3,13 @@ import whiteArrowIcon from "../../assets/images/arrows/flechablanca.png";
 
 const WineArrow = () => {
   return (
-    <div className="right-52 cursor-pointer z-20 absolute sm:-z-1">
+    <div
+      className="right-52 cursor-pointer z-20 absolute flex
+      xl:visible
+      lg:invisible
+      md:invisible
+      sm:invisible"
+    >
       <div className="inline-flex items-center justify-center">
         <img
           style={{ width: "2rem", height: "2rem" }}

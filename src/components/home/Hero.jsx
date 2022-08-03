@@ -6,15 +6,15 @@ const Hero = () => {
     <section id="home" className="fullscreen bg-img hero-img">
       <div
         className=" container mx-auto p-0 
-        lg:pt-10
-        md:pt-5
+        lg:pt-18
+        md:pt-14
         sm:pt-52"
       >
         <div className="flex md:flex sm:flex">
           <div className="shrink-0 md:shrink-0 sm:shrink-0">
             <div
               className="w-2/5 ml-40 
-              lg:w-2/5 lg:ml-40 
+              lg:w-2/5 lg:ml-20
               md:ml-16  md:w-1/2
               sm:ml-4 sm:w-screen"
             >

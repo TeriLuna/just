@@ -43,6 +43,7 @@ const ListServices = () => {
     <section className="bg-purple flex flex-col items-center justify-center relative">
       <img
         className="absolute rounded-lg w-2/4 -top-[14rem]
+        xl:-top-[14rem]
         lg:-top-[7rem] lg:w-2/4
         sm:w-3/4 sm:-top-28"
         src={imgServices}

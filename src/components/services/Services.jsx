@@ -5,7 +5,13 @@ import plantLeftWine from "../../assets/images/plantLeftWine.png";
 
 const Services = () => {
   return (
-    <section id="services" className="relative p-20 lg:p-20 md:p-10 sm:p-5">
+    <section
+      id="services"
+      className="relative p-20
+      lg:p-20
+      md:p-10
+      sm:p-5"
+    >
       <div className=" flex flex-col items-center justify-center">
         <div className=" container">
           <div className=" row-auto">
