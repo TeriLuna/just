@@ -25,37 +25,75 @@ export const Beneficios = () => {
                     <div className='benefItem'><img className='checkIcon' src={require("../../assets/images/icons/check1.png")} alt=""/><p className='text-l titleBenef'>Productos Just de regalo</p></div>    
                 </div>
 
-                <div className='testimonios'>
-                    <div className='contTestimonio'>
-                        <h2 className='tpurple text-4xl titleBenef bold'>Testimonios</h2>
-                        <p className='tpurple-lither'>Experiencias de consultores reales</p>
-                    </div>
-                    <div className='contTestPers'>
-                        <div className='contImgTest'><img className='testImg' src={require("../../assets/images/testimonio/FotoTESTIMONIO_MARITA.jpeg")} alt=""/></div>
-                        <div className='textTestPers'>
-                            <h3 className='text-l tpurple bold'>Marita, 59 años</h3>
-                            <p className='text-sm tpurple-light'>Consultora Just en Argentina</p>
-                            <div className='contT'>
-                                <img className='comillaIcon' src={require("../../assets/images/icons/comilla INICIO.png")} alt=""/>
-                                <p className='text-sm m-2 tpurple '>me permite crecer a partir de algo que cosidero realmente bueno, llevando salud consciente a otros</p>
-                                <img className='comillaIcon' src={require("../../assets/images/icons/comilla FINAL.png")} alt=""/>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='contTestPers'>
-                    <div className='contImgTest'><img className='testImg' src={require("../../assets/images/testimonio/Testimonio2.png")} alt=""/></div>
-                        <div className='textTestPers'>
-                            <h3 className='text-l tpurple bold'>Carla, 37 años</h3>
-                            <p className='text-sm tpurple-light'>Consultora Just en Argentina</p>
-                            <div className='contT'>
-                                <img className='comillaIcon' src={require("../../assets/images/icons/comilla INICIO.png")} alt=""/>
-                                <p className='text-sm m-2 tpurple '>me siento en familia porque mis compañeros trabajan en equipo y aportan sus habilidades para el crecimiento de todos</p>
-                                <img className='comillaIcon' src={require("../../assets/images/icons/comilla FINAL.png")} alt=""/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div className="testimonios">
+          <div className="contTestimonio">
+            <h2 className="tpurple text-4xl titleBenef bold">Testimonios</h2>
+            <p className="tpurple-lither">Experiencias de consultores reales</p>
+          </div>
+          <div className="contTestPers">
+            <div className="contImgTest">
+              <img
+                className="testImg"
+                src={require("../../assets/images/testimonio/FotoTESTIMONIO_MARITA.jpeg")}
+                alt=""
+              />
             </div>
-        </section>
-    )
-}
+            <div className="textTestPers">
+              <h3 className="text-l tpurple bold">Marita, 59 años</h3>
+              <p className="text-sm tpurple-light">
+                Consultora Just en Argentina
+              </p>
+              <div className="contT">
+                <img
+                  className="comillaIcon"
+                  src={require("../../assets/images/icons/comilla INICIO.png")}
+                  alt=""
+                />
+                <p className="text-sm m-2 tpurple ">
+                  me permite crecer a partir de algo que cosidero realmente
+                  bueno, llevando salud consciente a otros
+                </p>
+                <img
+                  className="comillaIcon"
+                  src={require("../../assets/images/icons/comilla FINAL.png")}
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div className="contTestPers">
+            <div className="contImgTest">
+              <img
+                className="testImg"
+                src={require("../../assets/images/testimonio/Testimonio2.png")}
+                alt=""
+              />
+            </div>
+            <div className="textTestPers">
+              <h3 className="text-l tpurple bold">Carla, 37 años</h3>
+              <p className="text-sm tpurple-light">
+                Consultora Just en Argentina
+              </p>
+              <div className="contT">
+                <img
+                  className="comillaIcon"
+                  src={require("../../assets/images/icons/comilla INICIO.png")}
+                  alt=""
+                />
+                <p className="text-sm m-2 tpurple ">
+                  me siento en familia porque mis compañeros trabajan en equipo
+                  y aportan sus habilidades para el crecimiento de todos
+                </p>
+                <img
+                  className="comillaIcon"
+                  src={require("../../assets/images/icons/comilla FINAL.png")}
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};

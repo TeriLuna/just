@@ -11,13 +11,13 @@ html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden !important;
 }
 
 body {
-  background-color: #f5f5f5;
+  background: #f5f5f5 !important;
   line-height: 1.5;
   font-weight: 400;
-  overflow-x: hidden !important;
   font-family: "Poppins", sans-serif;
 }
 
@@ -68,10 +68,6 @@ p {
   line-height: 2;
   margin: 0;
 }
-/* 
-div {
-  display: block !important;
-} */
 
 a,
 span {
@@ -82,14 +78,6 @@ a:hover,
 span:hover {
   text-decoration: none;
 }
-
-/* .container {
-  width: 100% !important;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-} */
 
 /* =================== [ Helper Classes ] =================== */
 
@@ -110,6 +98,10 @@ span:hover {
   width: 100%;
 }
 
+section.fullscreen {
+  height: 100%;
+}
+
 /* ------------------ Text Color ------------------ */
 
 .tpurple {
@@ -127,6 +119,15 @@ span:hover {
 .bg-purple {
   background-color: #734061;
   color: #ffff;
+}
+
+.hover\:text-10xl:hover {
+  font-size: 2.5rem /* px */;
+  line-height: 1;
+}
+
+.hover\:bg-purple-dark:hover {
+  background-color: #532c46;
 }
 
 .bg-purple-light {
@@ -179,7 +180,7 @@ li span {
   top: -48em;
   right: -27em;
   width: 75%;
-  z-index: 2;
+  z-index: 1;
 }
 
 .just-bottle {
@@ -187,7 +188,7 @@ li span {
   top: -20em;
   right: 0em;
   width: 50%;
-  z-index: 2;
+  z-index: 1;
 }
 
 .just-bottle-base {
@@ -195,5 +196,124 @@ li span {
   top: -10em;
   right: -2.5em;
   width: 40%;
-  z-index: 1;
+}
+
+/* ------------------ RESPONSIVE ----------- */
+
+@media (max-width: 1024px) {
+  .just-big-bottle {
+    overflow: hidden;
+    position: relative;
+    top: -41em;
+    right: -33em;
+    width: 70%;
+    z-index: 2;
+  }
+
+  .just-bottle {
+    overflow: hidden;
+    position: relative;
+    top: -68em;
+    right: -33em;
+    width: 50%;
+    z-index: 2;
+  }
+
+  .just-bottle-base {
+    overflow: hidden;
+    position: relative;
+    top: -88em;
+    right: -38em;
+    width: 40%;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 768.98px) {
+  .just-big-bottle {
+    overflow: hidden;
+    position: relative;
+    top: -28em;
+    right: -20em;
+    width: 75%;
+    z-index: 2;
+  }
+
+  .just-bottle {
+    overflow: hidden;
+    position: relative;
+    top: -42.5em;
+    right: -20.5em;
+    width: 50%;
+    z-index: 2;
+  }
+
+  .just-bottle-base {
+    overflow: hidden;
+    position: relative;
+    top: -54em;
+    right: -22em;
+    width: 45%;
+    z-index: 1;
+  }
+
+  li {
+    width: 5em;
+    height: 5em;
+    text-align: center;
+    line-height: 5em;
+    border-radius: 5em;
+    background: #74688d;
+    margin: 0 1em;
+    color: #ffff;
+    position: relative;
+    margin: 2em;
+    z-index: 2;
+  }
+
+  li::before {
+    content: "";
+    position: absolute;
+    top: 2.5em;
+    left: 5em;
+    width: 5.5em;
+    height: 0.3em;
+    flex-grow: 1;
+    background-color: #ffff;
+    z-index: -1;
+  }
+
+  li:last-child::before {
+    display: none;
+  }
+
+  li span {
+    font-size: 3em;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .just-big-bottle {
+    position: absolute;
+    top: -48em;
+    right: -27em;
+    width: 75%;
+    z-index: 1;
+  }
+
+  .just-bottle {
+    position: absolute;
+    top: -20em;
+    right: 0em;
+    width: 50%;
+    z-index: 1;
+  }
+
+  .just-bottle-base {
+    position: absolute;
+    top: -10em;
+    right: -2.5em;
+    width: 40%;
+  }
 }
