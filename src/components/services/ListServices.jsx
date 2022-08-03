@@ -63,7 +63,7 @@ const ListServices = () => {
         <div className="flex flex-col items-center justify-center">
           {services.map((service) => (
             <div
-              className="bg-purple-light flex justify-around py-10 px-24 rounded-xl m-6 w-3/4
+              className="animate__bounce animate__bounce bg-purple-light flex justify-around py-10 px-24 rounded-xl m-6 w-3/4
               lg:px-24 lg:w-3/4 lg:py-10 lg:m-6
               md:px-5 md:w-10/12
               sm:px-10 sm:w-11/12 sm:py-6 sm:m-2"
