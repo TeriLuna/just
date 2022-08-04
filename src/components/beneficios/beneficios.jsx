@@ -3,7 +3,7 @@ import { Link } from 'react-scroll'
 
 export const Beneficios = () => {
     return(
-        <section id='beneficios' className='relative p-56'>
+        <section id='beneficios' className='relative '>
             <Link to="home"spy={true} smooth={true} offset={-50} duration={500} className=" text-xl bold cPointer mt-5 btnHome " >
                 <img className="iconHome"src={require('../../assets/images/icons/home-bco.png')} alt="" />
             </Link>

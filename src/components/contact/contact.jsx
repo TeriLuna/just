@@ -5,12 +5,12 @@ export const Contact = () => {
         <section id="contacto" className="bgContact">
             <div className="contContact">
                 <div className="textTestPers">
-                <h3 className="text-3xl bold tpurple-light">Pide tu KIT de inicio</h3>
-                <h2 className="text-4xl bold tpurple-light">¡HOY MISMO!</h2>
+                <h3 className=" bold tpurple-light">Pide tu KIT de inicio</h3>
+                <h2 className=" bold tpurple-light">¡HOY MISMO!</h2>
 
                 </div>
                 
-                <button className="bg-purple buttonWsp text-4xl ">
+                <button className="bg-purple buttonWsp ">
                     <a
                         href="https://api.whatsapp.com/send/?phone=5491154192505&text=Hola! Deseo ser consultor/a de JUST!"
                         target="_blank"

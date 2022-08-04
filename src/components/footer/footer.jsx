@@ -11,10 +11,10 @@ export const Footer = () => {
                         <a href="https://api.whatsapp.com/send/?phone=5491154192505&text=Hola! Deseo ser consultor/a de JUST!"
                         target="_blank"
                         rel="noopener noreferrer">
-                            <img className="contactWsp" src={require('../../assets/images/icons/icono#1.png')} alt="" />
+                            <img className="contactF" src={require('../../assets/images/icons/icono#1.png')} alt="" />
                         </a>
                         <a href="https://www.instagram.com/bienestar.y.buen.vivir/" target="_blank" rel="noopener noreferrer">
-                            <img className="contactWsp" src={require('../../assets/images/icons/icono-ig.png')} alt="" />
+                            <img className="contactF" src={require('../../assets/images/icons/icono-ig.png')} alt="" />
                         </a>
                     </div>
                 </div>

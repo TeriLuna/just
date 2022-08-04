@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 
+
 export const Header = () => {
   return (
     <nav
@@ -19,56 +20,59 @@ export const Header = () => {
         </div>
       </div>
       <div className="contDer">
-        <Link
-          to="home"
-          spy={true}
-          smooth={true}
-          offset={-50}
-          duration={500}
-          className="tpurple text-xl bold cPointer"
-        >
-          Home
-        </Link>
-        <Link
-          to="services"
-          spy={true}
-          smooth={true}
-          offset={-50}
-          duration={500}
-          className="tpurple text-xl cPointer "
-        >
-          ¿Qué es JUST?
-        </Link>
-        <Link
-          to="iniciacion"
-          spy={true}
-          smooth={true}
-          offset={-50}
-          duration={500}
-          className="tpurple text-xl cPointer"
-        >
-          ¿Cómo iniciar?
-        </Link>
-        <Link
-          to="beneficios"
-          spy={true}
-          smooth={true}
-          offset={50}
-          duration={500}
-          className="tpurple text-xl cPointer"
-        >
-          Beneficios
-        </Link>
-        <Link
-          to="contacto"
-          spy={true}
-          smooth={true}
-          offset={50}
-          duration={500}
-          className="tpurple text-xl cPointer"
-        >
-          Contacto
-        </Link>
+        <div className="menuBurguer">
+          <Link
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+            className="tpurple  bold cPointer"
+          >
+            Home
+          </Link>
+          <Link
+            to="services"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+            className="tpurple  cPointer "
+          >
+            ¿Qué es JUST?
+          </Link>
+          <Link
+            to="iniciacion"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+            className="tpurple  cPointer"
+          >
+            ¿Cómo iniciar?
+          </Link>
+          <Link
+            to="beneficios"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="tpurple  cPointer"
+          >
+            Beneficios
+          </Link>
+          <Link
+            to="contacto"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="tpurple  cPointer"
+          >
+            Contacto
+          </Link>
+        </div>
+        
       </div>
     </nav>
   );

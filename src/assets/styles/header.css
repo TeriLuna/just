@@ -17,7 +17,7 @@
     width: 100px;
 }
 .contDer{
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -28,4 +28,67 @@
 }
 .cPointer{
     cursor: pointer;
+}
+
+.menuBurguer{
+    width: 100%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* MINI NAV VIEW */
+@media (min-width: 877px) and (max-width: 1280px){
+    .contDer{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .menuBurguer{
+        width: 100%;
+        font-size: 1.3rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+/* NAV HAMBURGUER VIEW */
+@media (max-width: 876px){
+    .navJust{
+        background: white;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: space-around;
+        justify-content: center ;
+    }
+    .contIzq{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .contDer{
+        padding: 1rem;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .menuBurguer{
+        width: 100%;
+        font-size: 0.8rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
