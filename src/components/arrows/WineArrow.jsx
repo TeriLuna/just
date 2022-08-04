@@ -8,7 +8,8 @@ const WineArrow = () => {
       xl:visible
       lg:invisible
       md:invisible
-      sm:invisible"
+      sm:invisible
+      xs:invisible"
     >
       <div className="inline-flex items-center justify-center">
         <img

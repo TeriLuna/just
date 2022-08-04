@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-
 export const Header = () => {
   return (
     <nav
@@ -72,7 +71,6 @@ export const Header = () => {
             Contacto
           </Link>
         </div>
-        
       </div>
     </nav>
   );

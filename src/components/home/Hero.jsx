@@ -5,31 +5,53 @@ const Hero = () => {
   return (
     <section id="home" className="fullscreen bg-img hero-img">
       <div
-        className=" container mx-auto p-0 
+        className=" container mx-auto p-0
         lg:pt-18
         md:pt-14
-        sm:pt-52"
+        sm:pt-52
+        xs:pt-32"
       >
         <div className="flex md:flex sm:flex">
-          <div className="shrink-0 md:shrink-0 sm:shrink-0">
+          <div className="shrink-0 md:shrink-0 sm:shrink-0 xs:shrink-0">
             <div
               className="w-2/5 ml-40 
               lg:w-2/5 lg:ml-20
               md:ml-16  md:w-1/2
-              sm:ml-4 sm:w-screen"
+              sm:ml-4 sm:w-screen
+              xs:ml-0 xs:w-screen"
             >
-              <div className="relative flex flex-col top-72  sm:flex sm:top-0 md:top-44 sm:ml-3">
-                <span className="tpurple text-5xl lg:text-5xl md:text-4xl md:tpurple sm:text-4xl sm:tpurple-light">
+              <div
+                className="relative flex flex-col top-72 
+              xs:top-44 xs:ml-20
+              sm:flex sm:top-0 sm:ml-3
+              md:top-44 "
+              >
+                <span
+                  className="tpurple text-5xl 
+                  lg:text-5xl 
+                  md:text-4xl md:tpurple 
+                  sm:text-4xl sm:tpurple-light
+                  xs:text-2xl xs:tpurple-light
+                  "
+                >
                   Cambia tu vida con
                 </span>
-                <span className="text-6xl text-white mt-3 lg:text-6xl md:text-4xl sm:text-5xl">
+                <span
+                  className="text-6xl text-white mt-3 
+                  lg:text-6xl 
+                  md:text-4xl 
+                  sm:text-5xl
+                  xs:text-2xl
+                  "
+                >
                   Bienestar para tí y los demás
                 </span>
                 <button
                   className="bg-purple rounded-lg py-5 px-8 w-96 mt-10 text-4xl inline-flex justify-center items-center hover:bg-purple-dark hover:text-10xl
                 lg:text-4xl lg:w-96 lg:px-8 lg:mt-10
                 md:mt-16
-                sm:text-3xl sm:w-80 sm:px-4 sm:mt-40"
+                sm:text-3xl sm:w-80 sm:px-4 sm:mt-40
+                xs:text-2xl xs:w-60 xs:px-2 xs:mt-20"
                 >
                   <a
                     href="https://api.whatsapp.com/send/?phone=5491154192505&text=Hola! Deseo ser consultor/a de JUST!"
@@ -39,7 +61,10 @@ const Hero = () => {
                     Contáctanos
                   </a>
                   <img
-                    className="ml-4 w-14 lg:w-14 lg:ml-4 sm:w-11 sm:ml-1"
+                    className="ml-4 w-14 
+                    lg:w-14 lg:ml-4 
+                    sm:w-11 sm:ml-1
+                    xs:w-9 xs:ml-0"
                     src={wpIcon}
                     alt="Icono de WhatsApp"
                   />
@@ -48,7 +73,8 @@ const Hero = () => {
                   className="flex text-white mt-24 text-5xl font-semibold 
                 lg:text-5xl lg:mt-24
                 md:mt-8 md:text-3xl 
-                sm:text-4xl sm:mt-20"
+                sm:text-4xl sm:mt-20
+                xs:text-2xl xs:mt-20 xs:px-2"
                 >
                   Obtén ingresos extra como consultor/a Just ¡AHORA!
                 </span>

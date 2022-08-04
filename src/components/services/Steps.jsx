@@ -10,7 +10,7 @@ import WhiteArrow from "../arrows/WhiteArrow";
 
 const Steps = () => {
   return (
-    <section className="relative h-screen pt-24 px-24 bg-purple-lighter">
+    <section className="relative pt-24 pb-56 px-24 bg-purple-lighter xs:px-2">
       <Link to="home" spy={true} smooth={true} offset={-50} duration={500}>
         <WhiteArrow />
       </Link>
@@ -21,7 +21,8 @@ const Steps = () => {
             xl:ml-40
             lg:ml-0
             md:ml-0
-            sm:ml-0 "
+            sm:ml-0
+            xs:ml-0"
           >
             <li>
               <span>1</span>
@@ -31,7 +32,8 @@ const Steps = () => {
                   className="font-semibold tpurple mt-5 text-4xl
                   lg:text-4xl
                   md:text-2xl
-                  sm:text-lg"
+                  sm:text-lg
+                  xs:text-base"
                 >
                   Contáctanos y regístrate
                 </p>
@@ -45,7 +47,8 @@ const Steps = () => {
                   className="font-semibold tpurple mt-5 text-4xl
                   lg:text-4xl
                   md:text-2xl
-                  sm:text-lg"
+                  sm:text-lg
+                  xs:text-base"
                 >
                   Adquiere tu Kit de inicio
                 </p>
@@ -59,7 +62,8 @@ const Steps = () => {
                   className="font-semibold tpurple mt-5 text-4xl
                   lg:text-4xl
                   md:text-xl
-                  sm:text-xs"
+                  sm:text-xs
+                  xs:text-base"
                 >
                   ¡Listo! ya eres consultor/a Just
                 </p>

@@ -45,17 +45,19 @@ const ListServices = () => {
         className="absolute rounded-lg w-2/4 -top-[14rem]
         xl:-top-[14rem]
         lg:-top-[7rem] lg:w-2/4
-        sm:w-3/4 sm:-top-28"
+        sm:w-3/4 sm:-top-28
+        xs:w-screen xs:-top-20"
         src={imgServices}
         alt="Imagen de componentes esenciales de Just"
       />
       <div className=" container flex flex-col items-center justify-center">
-        <div className=" mt-96 lg:mt-56 md:mt-40 sm:mt-32">
+        <div className=" mt-96 lg:mt-56 md:mt-40 sm:mt-32 xs:mt-44">
           <h2
             className=" text-4xl mb-16 font-medium
             lg:text-4xl lg:mb-16
             md:text-3xl
-            sm:text-lg sm:mb-6"
+            sm:text-lg sm:mb-6
+            xs:text-lg xs:mb-4"
           >
             Cubriendo cada necesidad
           </h2>
@@ -66,7 +68,8 @@ const ListServices = () => {
               className="bg-purple-light flex justify-around py-10 px-24 rounded-xl m-6 w-3/4
               lg:px-24 lg:w-3/4 lg:py-10 lg:m-6
               md:px-5 md:w-10/12
-              sm:px-10 sm:w-11/12 sm:py-6 sm:m-2"
+              sm:px-10 sm:w-11/12 sm:py-6 sm:m-2
+              xs:px-10 xs:w-11/12 xs:py-6 xs:m-2"
               key={service.id}
             >
               <div className="grid grid-flow-row-dense grid-cols-6 items-center justify-center">
@@ -78,7 +81,8 @@ const ListServices = () => {
                     className="tpurple text-4xl mb-4 font-semibold
                     lg:text-4xl
                     md:text-3xl
-                    sm:text-lg"
+                    sm:text-lg
+                    xs:text-base"
                   >
                     {service.title}
                   </span>
@@ -86,7 +90,8 @@ const ListServices = () => {
                     className="text-3xl
                     lg:text-3xl
                     md:text-2xl
-                    sm:text-xl"
+                    sm:text-xl
+                    xs:text-base"
                   >
                     {service.description}
                   </span>

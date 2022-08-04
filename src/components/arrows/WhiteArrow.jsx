@@ -8,7 +8,8 @@ const WineArrow = () => {
       xl:visible
       lg:invisible
       md:invisible
-      sm:invisible"
+      sm:invisible
+      xs:invisible"
     >
       <div className="inline-flex items-center justify-center">
         <img
@@ -16,7 +17,7 @@ const WineArrow = () => {
           src={whiteArrowIcon}
           alt="Flecha blanca para scroller hasta la pagina home"
         />
-        <span className="text-xl font-medium ml-2">Home</span>
+        <span className="text-xl font-medium ml-2 text-white">Home</span>
       </div>
     </div>
   );

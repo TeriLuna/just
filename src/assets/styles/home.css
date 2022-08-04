@@ -297,24 +297,25 @@ li span {
 @media (max-width: 575.98px) {
   .just-big-bottle {
     position: absolute;
-    top: -48em;
-    right: -27em;
-    width: 75%;
-    z-index: 1;
+    top: -11.5em;
+    right: -7em;
+    width: 60%;
+    z-index: 2;
   }
 
   .just-bottle {
     position: absolute;
-    top: -20em;
+    top: -5em;
     right: 0em;
-    width: 50%;
-    z-index: 1;
+    width: 40%;
+    z-index: 2;
   }
 
   .just-bottle-base {
     position: absolute;
-    top: -10em;
-    right: -2.5em;
-    width: 40%;
+    top: -1em;
+    right: -0.5em;
+    width: 30%;
   }
 }
+

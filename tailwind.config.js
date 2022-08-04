@@ -9,6 +9,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: "475px",
+        ...defaultTheme.screens,
+      },
       fontFamily: {
         sans: ["Poppins", "AmsterdamOne", ...defaultTheme.fontFamily.sans],
       },

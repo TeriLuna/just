@@ -10,7 +10,8 @@ const Services = () => {
       className="relative p-20
       lg:p-20
       md:p-10
-      sm:p-5"
+      sm:p-5
+      xs:p-5"
     >
       <div className=" flex flex-col items-center justify-center">
         <div className=" container">
@@ -28,7 +29,8 @@ const Services = () => {
               className="font-extralight flex justify-center tpurple-light text-5xl
                 lg:text-5xl lg:font-extralight
                 md:text-5xl md:font-normal
-                sm:text-2xl sm:font-normal"
+                sm:text-2xl sm:font-normal
+                xs:text-2xl xs:font-normal"
               style={{ fontFamily: "AmsterdamOne" }}
             >
               Pioneros en terapia herbal
@@ -37,7 +39,8 @@ const Services = () => {
               className="flex items-center flex-col tpurple font-medium text-4xl mt-6
                 lg:text-4xl lg:mt-6
                 md:text-4xl md:mt-4
-                sm:text-xl sm:mt-1"
+                sm:text-xl sm:mt-1
+                xs:text-xl xs:mt-1"
             >
               Nuestros productos
             </h5>
@@ -45,14 +48,16 @@ const Services = () => {
           <div
             className="row-auto mt-8 text-justify mb-48 flex flex-col items-center
               lg:mb-48
-              sm:mb-36"
+              sm:mb-36
+              xs:mb-24"
           >
             <div className=" w-2/3">
               <p
                 className="tpurple-light font-normal text-3xl
                 lg:text-3xl
                 md:text-xl
-                sm:text-lg"
+                sm:text-lg
+                xs:text-base"
               >
                 Los productos Just se basan en recetas de bienestar que utilizan
                 prácticas ancestrales con hierbas medicinales para atender
@@ -65,7 +70,13 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="absolute left-0 -bottom-28 w-1/4 lg:w-1/4 md:w-1/2 sm:w-1/2">
+      <div
+        className="absolute left-0 -bottom-28 w-1/4 
+        lg:w-1/4 
+        md:w-1/2 
+        sm:w-1/2
+        xs:w-1/2"
+      >
         <img src={plantLeftWine} alt="" />
       </div>
     </section>
