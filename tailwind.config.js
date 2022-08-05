@@ -8,11 +8,11 @@ module.exports = {
     "./components/**/*.{html, js,jsx}",
   ],
   theme: {
+    screens: {
+      xs: "393px",
+      ...defaultTheme.screens,
+    },
     extend: {
-      screens: {
-        xs: "475px",
-        ...defaultTheme.screens,
-      },
       fontFamily: {
         sans: ["Poppins", "AmsterdamOne", ...defaultTheme.fontFamily.sans],
       },
