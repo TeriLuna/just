@@ -38,7 +38,7 @@ const Consult = () => {
           sm:text-xl sm:w-4/5
           xs:text-base xs:w-full"
         >
-          Puedes realizarlo a tiempo completo o simplemente hacerlo como una
+          Podés realizarlo a tiempo completo o simplemente hacerlo como una
           actividad extra para obtener un ingreso adicional, brindando bienestar
           para tí y los demás.
         </p>

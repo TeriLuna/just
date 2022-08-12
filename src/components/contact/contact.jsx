@@ -16,7 +16,7 @@ export const Contact = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                      >
-                        Contáctanos{" "}
+                        Contactanos{" "}
                     </a>
                     <img className="contactWsp" src={require('../../assets/images/icons/icono#1.png')} alt="" />
                 </button>
