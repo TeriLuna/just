@@ -58,7 +58,7 @@ const Hero = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Contáctanos
+                    Contactanos
                   </a>
                   <img
                     className="ml-4 w-14 

@@ -35,7 +35,7 @@ const Steps = () => {
                   sm:text-lg
                   xs:text-base"
                 >
-                  Contáctanos y regístrate
+                  Contactanos y registrate
                 </p>
               </div>
             </li>
@@ -50,7 +50,7 @@ const Steps = () => {
                   sm:text-lg
                   xs:text-base"
                 >
-                  Adquiere tu Kit de inicio
+                  Adquirí tu Kit de inicio
                 </p>
               </div>
             </li>
@@ -65,7 +65,7 @@ const Steps = () => {
                   sm:text-xs
                   xs:text-base"
                 >
-                  ¡Listo! ya eres consultor/a Just
+                  ¡Listo! ya sos consultor/a Just
                 </p>
               </div>
             </li>

@@ -8,20 +8,7 @@ export const Beneficios = () => {
       <Link to="home" spy={true} smooth={true} offset={-50} duration={500}>
         <WhiteArrow />
       </Link>
-      {/* <Link
-        to="home"
-        spy={true}
-        smooth={true}
-        offset={-50}
-        duration={500}
-        className=" text-xl bold cPointer mt-5 btnHome "
-      >
-        <img
-          className="iconHome"
-          src={require("../../assets/images/icons/home-bco.png")}
-          alt=""
-        />
-      </Link> */}
+      
       <div className="titleSection">
         <h2
           className="text-5xl titleBenef"
@@ -56,7 +43,7 @@ export const Beneficios = () => {
               src={require("../../assets/images/icons/check1.png")}
               alt=""
             />
-            <p className="text-l titleBenef">Asesoría y acompañamient</p>
+            <p className="text-l titleBenef">Asesoría y acompañamiento</p>
           </div>
           <div className="benefItem">
             <img
