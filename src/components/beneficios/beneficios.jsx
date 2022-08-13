@@ -5,7 +5,7 @@ import WhiteArrow from "../arrows/WhiteArrow";
 export const Beneficios = () => {
   return (
     <section id="beneficios" className="relative ">
-      <Link to="home" spy={true} smooth={true} offset={-50} duration={500}>
+      <Link to="home" spy={true} smooth={true} offset={-50} duration={500} className="arrow">
         <WhiteArrow />
       </Link>
       

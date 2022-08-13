@@ -4,7 +4,7 @@ export const Contact = () => {
     return(
         <section id="contacto" className="bgContact">
             <div className="contContact">
-                <div className="textTestPers">
+                <div className="textContact">
                 <h3 className=" bold tpurple-light">Pide tu KIT de inicio</h3>
                 <h2 className=" bold tpurple-light">¡HOY MISMO!</h2>
 
