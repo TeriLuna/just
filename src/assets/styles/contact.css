@@ -16,6 +16,14 @@
     align-items: center;
     justify-content: space-between;
 }
+.textContact{
+    width: 100%;
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .contactWsp{
     width: 25px;
@@ -51,6 +59,14 @@
         align-items: center;
         justify-content: space-between;
     }
+    .textContact{
+        width: 100%;
+        padding: 0.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
     .buttonWsp{
         display: flex;
         flex-direction: row;
@@ -83,13 +99,26 @@
         align-items: center;
         justify-content: space-between;
     }
+    .textContact{
+        width: 100%;
+        padding: 1rem 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        font-size: 0.7rem;
+    }
     .buttonWsp{
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        padding: 0.5rem;
-        border-radius: 15px;
+        padding: 0.5rem 1rem;
+        border-radius: 10px;
         font-size: 0.8rem;
+    }
+    .contactWsp{
+        width: 20px;
+        margin: auto 10px;
     }
 }
