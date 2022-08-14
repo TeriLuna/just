@@ -8,7 +8,7 @@ export const Beneficios = () => {
       <Link to="home" spy={true} smooth={true} offset={-50} duration={500} className="arrow">
         <WhiteArrow />
       </Link>
-      
+
       <div className="titleSection">
         <h2
           className="text-5xl titleBenef"

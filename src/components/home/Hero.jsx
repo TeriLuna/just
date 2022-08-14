@@ -6,40 +6,45 @@ const Hero = () => {
     <section id="home" className="fullscreen bg-img hero-img">
       <div
         className=" container mx-auto p-0
-        lg:pt-18
+        lg:pt-14
         md:pt-14
         sm:pt-52
-        xs:pt-32"
+        xs:pt-20"
       >
         <div className="flex md:flex sm:flex">
           <div className="shrink-0 md:shrink-0 sm:shrink-0 xs:shrink-0">
             <div
-              className="w-2/5 ml-40 
-              lg:w-2/5 lg:ml-20
+              className="w-2/5 ml-40
+              lg:w-2/5 lg:ml-16
               md:ml-16  md:w-1/2
               sm:ml-4 sm:w-screen
-              xs:ml-0 xs:w-screen"
+              xs:-ml-10 xs:w-screen"
             >
               <div
-                className="relative flex flex-col top-72 
+                className="relative flex flex-col top-72
               xs:top-44 xs:ml-20
               sm:flex sm:top-0 sm:ml-3
               md:top-44 "
               >
                 <span
-                  className="tpurple text-5xl 
-                  lg:text-5xl 
-                  md:text-4xl md:tpurple 
+                  className="tpurple text-5xl
+                  lg:text-5xl
+                  md:text-4xl md:tpurple
                   sm:text-4xl sm:tpurple-light
                   xs:text-2xl xs:tpurple-light
                   "
                 >
-                  Cambia tu vida con
+                  Cambia tu vida{" "}
+                  <span className="tpurple
+                    lg:tpurple
+                    md:tpurple
+                    sm:tpurple
+                  xs:text-white">con</span>
                 </span>
                 <span
-                  className="text-6xl text-white mt-3 
-                  lg:text-6xl 
-                  md:text-4xl 
+                  className="text-6xl text-white mt-3
+                  lg:text-6xl
+                  md:text-4xl
                   sm:text-5xl
                   xs:text-2xl
                   "
@@ -61,20 +66,20 @@ const Hero = () => {
                     Contactanos
                   </a>
                   <img
-                    className="ml-4 w-14 
-                    lg:w-14 lg:ml-4 
-                    sm:w-11 sm:ml-1
-                    xs:w-9 xs:ml-0"
+                    className="ml-4 w-14
+                    lg:w-14 lg:ml-4
+                    sm:w-11 sm:ml-2
+                    xs:w-9 xs:ml-2"
                     src={wpIcon}
                     alt="Icono de WhatsApp"
                   />
                 </button>
                 <span
-                  className="flex text-white mt-24 text-5xl font-semibold 
+                  className="flex text-white mt-24 text-5xl font-semibold
                 lg:text-5xl lg:mt-24
-                md:mt-8 md:text-3xl 
+                md:mt-8 md:text-3xl
                 sm:text-4xl sm:mt-20
-                xs:text-2xl xs:mt-20 xs:px-2"
+                xs:text-2xl xs:mt-10 xs:px-2"
                 >
                   Obtén ingresos extra como consultor/a Just ¡AHORA!
                 </span>
