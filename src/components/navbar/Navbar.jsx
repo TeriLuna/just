@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="imgHeader">
           <img src={require("../../assets/images/logo/just.png")} alt="logo1" />
         </div>
-        <div className="imgHeader">
+        <div className="imgHeader ml-9">
           <img
             src={require("../../assets/images/logo/logo-bienestar.png")}
             alt="logo2"
@@ -28,8 +28,15 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" w-full absolute top-0 left-0 z-10">
-      <div className="navJust md:flex py-4 md:px-10 px-7">
+    <div
+      className=" w-full absolute top-0 left-0 z-10
+      lg:absolute
+      md:absolute
+      sm:absolute
+      xs:fixed
+    "
+    >
+      <div className="navJust md:flex py-4 px-16 md:px-14">
         <div className="text-2xl cursor-pointer flex items-center left-0">
           <span className="text-3xl mr-1 pt-2">
             <Logos name="logo-ionic"></Logos>
@@ -44,19 +51,22 @@ const Navbar = () => {
         </div>
 
         <ul
-          className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-1/2 md:pl-0 pl-9 transition-all duration-500 ease-in ${
+          className={`md:flex md:items-center md:justify-between md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-3/5 md:pl-0 pl-9 transition-all duration-150 ease-in ${
             open ? "top-32" : ("top-[-490px]", "bg-transparent")
           }`}
         >
           {Links.map((link) => (
-            <div key={link.name} className="md:ml-8 text-2xl my-2 md:my-0 ">
+            <div
+              key={link.name}
+              className="ml-12 md:ml-8 text-2xl my-2 md:my-0 "
+            >
               <Link
                 to={link.link}
                 spy={true}
                 smooth={true}
                 offset={-50}
-                duration={500}
-                className={`tpurple  cPointer duration-500 ${
+                duration={150}
+                className={`tpurple  cPointer duration-150 ${
                   link.link === "home" ? "bold" : ""
                 }`}
               >
