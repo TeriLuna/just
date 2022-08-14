@@ -57,7 +57,7 @@ const Hero = () => {
                   Bienestar para tí y los demás
                 </span>
                 <button
-                  className="bg-purple rounded-lg py-5 px-8 w-96 mt-10 text-4xl inline-flex justify-center items-center hover:bg-purple-dark hover:text-10xl
+                  className="bg-purple rounded-lg py-5 px-8 w-96 mt-10 text-4xl inline-flex justify-center items-center
                 lg:text-4xl lg:w-96 lg:px-8 lg:mt-10
                 md:mt-16
                 sm:text-3xl sm:w-80 sm:px-4 sm:mt-40
