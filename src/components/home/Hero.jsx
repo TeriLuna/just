@@ -35,11 +35,16 @@ const Hero = () => {
                   "
                 >
                   Cambia tu vida{" "}
-                  <span className="tpurple
+                  <span
+                    className="tpurple
+                    xl:tpurple
                     lg:tpurple
                     md:tpurple
                     sm:tpurple
-                  xs:text-white">con</span>
+                    xs:tpurple-light"
+                  >
+                    con
+                  </span>
                 </span>
                 <span
                   className="text-6xl text-white mt-3

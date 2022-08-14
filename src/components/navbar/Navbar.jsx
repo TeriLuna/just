@@ -31,12 +31,12 @@ const Navbar = () => {
     <div
       className=" w-full absolute top-0 left-0 z-10
       lg:absolute
-      md:absolute
-      sm:absolute
+      md:fixed
+      sm:fixed
       xs:fixed
     "
     >
-      <div className="navJust md:flex py-4 px-16 md:px-14">
+      <div className="navJust md:flex py-4 px-16 md:px-10">
         <div className="text-2xl cursor-pointer flex items-center left-0">
           <span className="text-3xl mr-1 pt-2">
             <Logos name="logo-ionic"></Logos>
