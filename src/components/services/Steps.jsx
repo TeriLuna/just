@@ -31,7 +31,8 @@ const Steps = () => {
       className="relative pt-24 pb-80 px-24 bg-purple-lighter
       xl:pt-32 xl:pb-80 xl:px-32
       lg:px-32 lg:pb-36 lg:pt-24
-      xs:px-2 xs:pb-12 xs:pt-32"
+      sm:pt-32 sm:pb-32 sm:px-24
+      xs:px-2 xs:pb-26 xs:pt-32"
     >
       <div className="container">
         <div className="row-auto">
@@ -50,7 +51,7 @@ const Steps = () => {
                 <div
                   className={`flex ${
                     step.id === 1
-                      ? "flex flex-col items-center mt-5 xl:mt-9 lg:mt-6 md:mt-5 sm:mt-5 xs:-mt-64"
+                      ? "flex flex-col items-center mt-5 xl:mt-9 lg:mt-6 md:mt-5 sm:-mt-72 xs:-mt-64"
                       : "flex flex-col items-center mt-5 xl:mt-9 lg:mt-6 md:mt-5 sm:mt-5"
                   }`}
                 >
@@ -81,8 +82,8 @@ const Steps = () => {
           alt="Frasco de aceite esencial de lavanda Just"
           className="w-1/2 absolute -top-1/4 right-0
               lg:w-1/2 lg:-top-1/4 lg:right-0
-              md:w-1/2 md:-top-1/4 md:right-0
-              sm:w-1/2 sm:-top-1/4 sm:right-0
+              md:w-1/2 md:-top-16 md:-right-10
+              sm:w-1/2 sm:-top-5 sm:right-0
               xs:w-3/4 xs:-top-5 xs:-right-2"
         />
       </div>

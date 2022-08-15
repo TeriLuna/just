@@ -179,27 +179,27 @@ li span {
 
 /* ------------------ RESPONSIVE ----------- */
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   li {
-    width: 7.5em;
-    height: 7.5em;
+    width: 6.5em;
+    height: 6.5em;
     text-align: center;
-    line-height: 7.5em;
-    border-radius: 7.5em;
+    line-height: 6.5em;
+    border-radius: 6.5em;
     background: #74688d;
     margin: 0 1em;
     color: #ffff;
     position: relative;
     margin: 4em;
     z-index: 2;
-    display: inline-block;
+    display: -ms-inline-grid;
   }
 
   li::before {
     content: "";
     position: absolute;
     top: 3.5em;
-    left: 7.5em;
+    left: 6.5em;
     width: 9.5em;
     height: 0.3em;
     flex-grow: 1;
@@ -217,18 +217,18 @@ li span {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.9px) {
   li {
-    width: 5em;
-    height: 5em;
+    width: 6em;
+    height: 6em;
     text-align: center;
-    line-height: 5em;
-    border-radius: 5em;
+    line-height: 6em;
+    border-radius: 6em;
     background: #74688d;
     margin: 0 1em;
     color: #ffff;
     position: relative;
-    margin: 5em;
+    margin: 6em 6em;
     z-index: 2;
     display: block;
   }
@@ -236,18 +236,18 @@ li span {
   li::before {
     content: "";
     position: absolute;
-    top: 5em;
-    left: 2.5em;
+    top: 6em;
+    left: 3em;
     width: 0.3em;
-    height: 5.5em;
+    height: 6em;
     flex-grow: 1;
     background-color: #ffff;
     z-index: -1;
   }
 
   li:nth-child(2)::before {
-    top: 2.5em;
-    left: 5em;
+    top: 3em;
+    left: 6em;
     width: 9.5em;
     height: 0.3em;
   }
@@ -258,19 +258,19 @@ li span {
   }
 
   li:nth-child(3) {
-    width: 5em !important;
-    height: 5em !important;
+    width: 6em !important;
+    height: 6em !important;
     text-align: center;
-    line-height: 5em;
-    border-radius: 5em;
+    line-height: 6em;
+    border-radius: 6em;
     background: #74688d;
     margin: 0 1em;
     color: #ffff;
     position: relative;
-    margin: 2em;
+    margin: 4em;
     z-index: 2;
     left: 230px;
-    top: -160px;
+    top: -190px;
   }
   li:last-child::before {
     display: none;

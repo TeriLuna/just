@@ -9,7 +9,7 @@ const Consult = () => {
       className="container mt-32 p-20
       lg:mt-32
       sm:mt-14
-      xs:mt-0"
+      xs:mt-0 xs:p-6"
     >
       <Link to="home" spy={true} smooth={true} offset={-50} duration={500}>
         <WhiteArrow />
@@ -19,7 +19,7 @@ const Consult = () => {
           className="tpurple-lither text-7xl font-normal
           lg:text-7xl
           sm:text-5xl
-          xs:text-4xl"
+          xs:text-3xl"
           style={{ fontFamily: "AmsterdamOne" }}
         >
           Ser consultor/a
