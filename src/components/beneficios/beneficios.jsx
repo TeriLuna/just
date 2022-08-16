@@ -114,7 +114,7 @@ export const Beneficios = () => {
                   alt=""
                 />
                 <p className="text-sm m-2 tpurple ">
-                  me permite crecer a partir de algo que cosidero realmente
+                  me permite crecer a partir de algo que considero realmente
                   bueno, llevando salud consciente a otros
                 </p>
                 <img

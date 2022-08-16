@@ -32,7 +32,7 @@ const Steps = () => {
       xl:pt-32 xl:pb-80 xl:px-32
       lg:px-32 lg:pb-36 lg:pt-24
       sm:pt-32 sm:pb-32 sm:px-24
-      xs:px-2 xs:pb-26 xs:pt-32"
+      xs:px-2 xs:pb-10 xs:pt-32"
     >
       <div className="container">
         <div className="row-auto">
@@ -42,7 +42,7 @@ const Steps = () => {
             lg:ml-0
             md:ml-10
             sm:ml-0
-            xs:-ml-7"
+            xs:-ml-16"
           >
             {steps.map((step) => (
               <li key={step.id}>
@@ -51,7 +51,7 @@ const Steps = () => {
                 <div
                   className={`flex ${
                     step.id === 1
-                      ? "flex flex-col items-center mt-5 xl:mt-9 lg:mt-6 md:mt-5 sm:-mt-72 xs:-mt-64"
+                      ? "flex flex-col items-center mt-5 xl:mt-9 lg:mt-6 md:mt-5 sm:-mt-72 xs:-mt-72"
                       : "flex flex-col items-center mt-5 xl:mt-9 lg:mt-6 md:mt-5 sm:mt-5"
                   }`}
                 >
@@ -84,7 +84,7 @@ const Steps = () => {
               lg:w-1/2 lg:-top-1/4 lg:right-0
               md:w-1/2 md:-top-16 md:-right-10
               sm:w-1/2 sm:-top-5 sm:right-0
-              xs:w-3/4 xs:-top-5 xs:-right-2"
+              xs:w-3/4 xs:-top-9 xs:-right-2"
         />
       </div>
     </section>
